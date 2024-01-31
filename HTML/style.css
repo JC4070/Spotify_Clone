@@ -300,6 +300,7 @@ span{
 .right{
     background: linear-gradient(to bottom,#114233,black);
 }
+
 .bottom-bar{
     position: fixed;
     bottom: 0;

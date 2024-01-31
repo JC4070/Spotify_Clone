@@ -1,0 +1,120 @@
+.navy{
+    background: black;
+    height: 130px;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spotify-logo{
+    padding-top: 35px;
+    padding-left: 50px;
+    height: 47px;
+    width: 150px;
+}
+.main{
+    background: linear-gradient(to bottom,#2b2b2b,black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    
+}
+.bottom-bar{
+    background-color: #121212;
+    height: 70px;
+    color: gray;
+    text-align: center;
+    padding-top:45px ;
+    font-family: sans-serif;
+}
+
+.middle{
+    background-color: #121212;
+    /* margin: 130px; */
+    /* padding-top: 400px; */
+    height: 700px;
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-top: 10px; */
+    border-radius: 10px;
+}
+.Login{
+    margin-top: 100px;
+    color: white;
+    height: 57px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email-text,.password-text{
+    color: white;
+    font-size: 20px;
+    
+}
+.password-text{
+    margin-top: 20px;
+}
+.info{
+    width: 100%;
+    margin-top: 90px;
+    padding-left: 490px;
+}
+.boxes1,.boxes2{
+    background-color: #121212;
+    color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    border-color: gray;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+}
+.boxes:hover{
+    border-color: white;
+}
+.log-in{
+    height: 50px;
+    width: 425px;
+    font-size: 18px;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: tranform 0.3s;
+
+}
+.boxes:focus{
+    border: 3px solid white ;
+}
+.log-in:hover{
+    font-weight: 900;
+    
+    transform: scale(1.05);
+}
+.forgot{
+    color: white;
+    text-decoration: underline;
+    background-color: #121212;
+    border: none;
+    font-size: 19px;
+    width: 420px;
+    margin-top: 50px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.forgot:hover{
+    color: #1ed760;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="navy"><img src="spotify-logo.webp" class="spotify-logo" alt=""></div>
+    <div class="main">
+        <div class="middle">
+            <h1 class="Login">Log in to Spotify</h1>
+
+            <form action="code.html" class="info" method="post" onsubmit="return validateForm()">
+                <div class="email-text">Email or userame</div>
+                <br>
+                <input type="text" class="boxes1" id="username"  placeholder="Enter email or username" required>
+                <div class="password-text">Password</div>
+                <br>
+                <input type="password" class="boxes2" id="password" placeholder="Password" required>
+                <br><br><br><br>
+                <button type="submit" class="log-in">Log In</button>
+            </form>
+
+            <button class="forgot">Forgot your password?</button>
+        </div>
+        
+    </div>
+    <div class="bottom-bar">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</div>
+    
+    <p id="error-msg" class="error"></p>
+    <script src="login.js"></script>
+</body>
+</html>
