@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="../CSS/sign-up.css">
+</head>
+<body bgcolor="#121212">
+    <div class="navy"><img src="../ICONS/spotify-logo.webp" class="spotify-logo" alt=""></div>
+    <div class="main">
+        <div class="middle">
+            <div class="start-listen">Sign up to start listening</div>
+            
+            <form action="login.html"  id="signup-form" method="post" class="info"><br><br><br><br>
+                <div class="email-address">Email address</div>
+                <input type="email" id="signup-email" placeholder="name@domain.com" class="enter-email" required >
+                <br><br>
+                <div class="create-password">Create a Password</div>
+                <input type="password" id="signup-password" placeholder="Create a strong password" class="enter-email" required >
+                <button type="submit" class="Sign-up" onclick="signUp()">Sign Up</button>
+            </form>
+            
+            <hr class="horizon">
+            <br><div class="sign-up-page">Already have an account? &nbsp;<a href="login.html" class="redirect"> Log in here</a></div>
+        </div>
+    </div>
+    <script src="../JS/login.js"></script>
+</body>
+</html>

@@ -6,8 +6,8 @@ body{
 /*main div*/
 .main{
     display: grid;
-    grid-template-columns: 510px 73% ;
-    column-gap: 10px;
+    grid-template-columns: 27.5% 60% ;
+    /* column-gap: 0px; */
     height: 900px;
 }
 
@@ -15,13 +15,6 @@ body{
 
 /* left:- upper part*/
 
-.div-home{
-    padding-right: 70px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-   align-items: center;
-}
 
 
 .div-1st{
@@ -37,13 +30,14 @@ body{
     border: none;
     font-weight: bold;
     cursor: pointer;
-    padding-right: 270px;
+    padding-right: 250px;
     height: 40px;
-    margin-bottom: px;
-    display: flex;
-    flex-direction: row;
+   
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
     font-size: 15px;
-    align-items: left;
+ 
 }
 .home{
     background-color:#121212 ;
@@ -51,13 +45,14 @@ body{
     border: none;
     font-weight: bold;
     cursor: pointer;
-    padding-right: 360px;
+    padding-right: 50px;
     height: 60px;
     margin-bottom: 15px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
     font-size: 15px;
-    align-items: left;
+    
     
 }
 .libs{
@@ -72,7 +67,7 @@ body{
    }
    .home-img{
    
-    content: url('HOME-HIGHLIGHT.png');
+    content: url('../ICONS/HOME-HIGHLIGHT.png');
 }
 }
 
@@ -83,7 +78,7 @@ body{
        }
        .home-img{
         
-        content: url('SEARCH-HIGHLIGHT.png');
+        content: url('../ICONS/SEARCH-HIGHLIGHT.png');
     }
 }
 /* left:- lower part*/
@@ -91,10 +86,10 @@ body{
         padding-top: 20px;
         padding-right: 70px;
         padding: 10px;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 50% 40% 20%;
         padding-right: 20px;
-        justify-content: space-between;
+      
 }
 
 .your-lib{
@@ -116,8 +111,8 @@ body{
 }
 
 .recents-div{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+  grid-template-columns: 75% 60% 30%;
     padding: 5px 10px 5px 10px;
     /* align-items: center; */
     justify-content: space-between;
@@ -167,11 +162,12 @@ body{
     margin-left: 90px;
 }
 .home1{
+    padding-top: 7px;
     font-size: 20px;
 }
 .blend{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 20% 70%;
     align-items: center;
     width: 490px;
     margin: 0px 5px 3px 8px;
@@ -190,6 +186,8 @@ body{
     height: 650px;
     overflow: scroll;
 }
+
+
 .buttons{
     overflow: scroll;
 }
@@ -259,14 +257,18 @@ span{
 }
 .det{
     font-size: 18px;
+    /* padding-right: 188px; */
+    text-align: left;
+    margin-left:15px;
 }
 .alb{
     color: white;
     font-weight: bold;
-    display: flex;
-    flex-direction: row;
+    
+    text-align: left;
     padding: 2px;
     font-size: 18px;
+        margin-left:15px;
 }
 
 .cover-img{
@@ -292,35 +294,48 @@ span{
     cursor: pointer;
 }
 .home-img:focus{
-    content: url('HOME-ACTIVE.png');
+    content: url('../ICONS/HOME-ACTIVE.png');
 }
 .left{
     width: 510px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    height: 900px;
 }
-.right{
-    background: linear-gradient(to bottom,#114233,black);
-}
+.right {
+    position: fixed;
+    overflow: scroll;
+    top: 0;
+    right: 0;
+
+    background: linear-gradient(to bottom, #114233 8%, black 60%);
+    border-radius: 10px;
+     transition: background 3s ease;
+  }
+
+
 
 .bottom-bar{
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 1;
     right: 0;
     background-color: black;
     height: 100px;
+    display: grid;
+    grid-template-columns: 20% 60% 30%;
+    align-items: center;
     
 }
 
-.bottom-bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    align-content: center;
-}
 .bottom-left{
-    display: flex;
-    flex-direction: row; 
-    justify-content: left;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 20px;
+    margin-left: 9px;
     width: 400px;
     align-content: center;
 }
@@ -349,8 +364,8 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
 }
 .bottom-middle-top{
-   display: flex;
-   flex-direction: row;
+   display: grid;
+   grid-template-columns: 60% 30% 10%;
 
 }
 .bottom-middle{
@@ -360,7 +375,7 @@ font-family: Arial, Helvetica, sans-serif;
     background: black;
     cursor: pointer;
     border: none;
-    margin-left: 100px;
+    margin-left: 155px;
     margin-top: 10px;
 }
 .button-rewind-right{
@@ -386,16 +401,16 @@ font-family: Arial, Helvetica, sans-serif;
 background-color: white;
 cursor: pointer;
 border: none;
-height: 47px;
-width: 47px;
+height: 43px;
+width: 43px;
 border-radius: 30px;
 
 }
 
 .play-img{
-    height: 40px;
-    width: 40px;
-    padding: auto;
+    height: 35px;
+    width: 35px;
+    padding: 3px 3px 3px 0px;
 }
 
 

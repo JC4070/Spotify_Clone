@@ -1,0 +1,210 @@
+.right1 {
+    background: linear-gradient(to bottom, #385350 30%, black 90%);
+    position: fixed;
+    top: 0;
+    right: 0;
+  width: 1370px;
+  border-radius: 25px;
+}
+
+.good-morning1{
+    color: white;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+    font-size: 3rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.good-morning1 img{
+    height: 300px;
+    /* padding: 20px; */
+    box-shadow: 3px 4px 90px rgba(0, 0, 0);
+    border-radius: 5px;
+    
+}
+.title,.time,.album{
+    width: 50px;
+    color: gray;
+    
+}
+
+.good-morning1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 30px;
+    padding-top: 50px;
+    /* border-bottom: 2px solid gray; */
+    padding-bottom: 30px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0);
+}
+.name2{
+    margin-top: 20px;
+    font-size:20px;
+    padding-left: 10px;
+}
+.name{
+    font-size: 110px;
+    font-weight: 750;
+    font-family: var(--encore-title-font-stack);
+}
+.album-lines1{
+    width: 1300px;
+    margin-top:-15px;
+}
+/* .container1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.container1 div{
+    display: inline;
+}
+.title{
+    background-color: pink;
+
+} */
+.conatianer1 {
+    padding: 30px;
+        display: grid;
+        grid-template-columns: 38% 52.5% 10%; /* Adjust the number of columns and width as needed */
+        grid-gap: 10px; /* Adjust the gap between columns as needed */
+        margin-bottom: -15px;
+        margin-left: 30px;
+
+    }
+
+    .conatianer1 > div {
+         /* Optional: Add border for better visualization */
+        text-align: center; /* Optional: Center the text inside each div */
+        font-size: 20px;
+        color: white;
+    }
+.conatianer1 .title .img11 img{
+    /* padding: 2px; */
+    width: 60px;
+    height: 60px;
+}
+.horizontal-line {
+    /* width: 100%; Adjust the width of the line */
+    height: 3px; /* Adjust the thickness of the line */
+    background-color: rgb(98, 97, 97); /* Grey color */
+    width: 1270px;
+    margin-left: 30px;
+}
+.whole-song-1st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 300px;
+    margin-left: -60px;
+}
+.play-img-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+}
+.whole-song{
+    margin-top: 5px;
+    width: 1270px;
+    background: none;
+    /* border: none; */
+    /* color: white; */
+    display: grid;
+    grid-template-columns: 12% 79% 1%;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-left: 34px;
+    height: 70px;
+}
+.whole-song:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.whole-ka-font{
+    margin-left:20px ;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: left;
+}
+.vishal{
+    margin-top: -10px;
+}
+.whole-song-2nd,.whole-song-3rd{
+    font-size: 15px;
+    color: rgb(197, 197, 197);
+    font-weight: 900;
+}
+.middle-img-container{
+    background: none;
+    border: none;
+    padding: 20px;
+   transition: 0.3s ease;
+}
+.middle-img-container:hover{
+    scale: 1.1;
+    
+}
+.middle-liked-container:hover{
+    scale: 1.1;
+}
+.middle-img-container-div{
+    background-color: lightgreen;
+    width: 80px;
+    height: 40px;
+   padding-top: 23px;
+   padding-left: 2px;
+   padding-bottom: 16px;border-radius: 50%;
+   cursor: pointer;
+}
+
+.middle-dots{
+    background: none;
+    color: gray;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    margin-bottom: 14px;
+  margin-left: -140px;
+  transition: 0.3s ease;
+
+}.middle-dots:hover{
+    scale: 1.04;
+}
+.middle-liked-container{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 40px;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+.middle-liked{
+    width: 40px;
+    height: 45px;
+}
+.middle-list{
+    background: none;
+    color: rgb(166, 166, 166);
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+    border: none;
+    font-size: 18px;
+    justify-content: center;
+    cursor: pointer;
+}
+.middle-list-img{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+.middle-one{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 90px 150px 60px 90px;
+}
